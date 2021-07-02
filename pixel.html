@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+  html{
+      scroll-behavior: smooth;
+  }
+
+ 
+        .navbar{
+           background-color:rgb(41, 39, 39); 
+           width: 100%;
+           display: flex;
+           justify-content: space-between;
+           height: 3.7rem;
+            position: fixed;
+            top: 0;
+        }
+        .navbar>ul{
+            display: flex;
+            margin-left: 3.6rem;
+            margin-top: 0.7rem;
+            font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;      
+        }
+        .navbar > ul > li{
+            list-style: none;
+             padding: 8px; 
+            color: white;         
+        }
+     .li>a:hover{
+         color: skyblue;
+     }
+
+        #img{
+    width: 175vh;
+    height: 82vh;
+    margin-top: 4rem;
+    margin-left: 8rem; 
+  
+        }
+        #fes{
+            color: white;
+            font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;
+            font-size: 4.5rem;
+            margin-left: 14rem;
+             margin-top: -2rem;
+        }
+        .featured > p{
+    font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10.50em;
+    height: 2.80em;
+    /* margin-top: 1.5em; */
+    padding-top: .8em;
+    background: #262829;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    top: 57.4rem;
+    
+ }
+ #featured{
+     animation: slider 40s infinite linear;
+ }
+ @keyframes slider {
+     
+ 
+ 
+ 
+ 
+ }
+ #tex{
+    /* margin-top: 2rem; */
+    font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+
+} 
+.image{
+     padding: 10px;
+    /* transition: 0.4s; */
+   /* transition: width 2s; */
+   
+}
+
+#about{
+        border: 2px solid black;
+        height: 185vh;
+      
+}
+#about > p{
+    font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10.45em;
+    height: 2.75em;
+     padding-top: .8em; 
+    background: #262829;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    top: 57.4rem;
+  
+ }
+ #contact > p{
+    font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10.50em;
+    height: 2.80em;
+    /* margin-top: 1.5em; */
+    padding-top: .8em;
+    background: #262829;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    top: 58rem;
+    
+ }
+ #contact{
+       height: 115vh;
+       border: 2px solid rgb(58, 54, 54);
+       background-color: rgb(14, 170, 231);
+ }
+ #contact1{
+    box-shadow: 0px 6px 11px 15px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ .edit{
+    background-image: url('postcard.jpg');
+      background-size: cover;
+      box-shadow: 0px 6px 11px 15px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+.footer{
+    background-color: rgb(37, 36, 36);
+    height: 52vh;
+}
+#icon{
+     margin-left: 63.4rem;
+     margin-top: -7rem;
+}
+.but:hover{
+    color: skyblue;
+    box-shadow: 0px 4px 7px 10px skyblue;
+}
+@media only screen and (max-width: 529px) {
+ #ul{
+       margin-left: 4rem;  
+       }
+}
+@media only screen and (max-width: 529px) {
+   #img{
+    height: 42vh;
+    width: 88vh;
+     margin-left: -6rem;
+    }
+     .imag{
+       height:10rem;
+    }
+  #fes {
+    font-size: 53px;
+    margin-left: 1.5rem;
+    margin-top:1.6rem;
+     }
+    .sam{
+        font-size: 0.7em;
+        margin-left: -12.5rem; 
+       margin-top: 1rem;
+       /* padding-right: 25rem; */
+
+    }
+   .featured{
+        height: 50vh;
+    }
+      .featured > p{
+        font-size: 0.8em;
+        margin-top: 0rem;
+    }
+   
+    #red{
+        padding-top: 0rem;
+        /* font-weight: 100; */
+         font-size: 10em;
+      
+    }
+    #xy{
+        font-size: 20vh;
+    }
+    .but{
+        float: right;
+        margin-right: 11rem;
+    }
+    .iz{
+       height: 90vh;
+       width: 20rem;
+    }
+    #ie{
+  
+    padding-top: 15rem;
+    justify-content: center;
+   margin-left: -112px;
+   float: left;
+  height: 40vh;
+
+   /* padding-right: -200px; */
+    }
+
+#if{
+    margin-top:-18rem;
+    height: 30vh;
+    margin-right: -10rem;        
+}
+
+.cli{
+    position: relative;
+    height: 100vh;
+}
+.image{
+    
+}
+  #about{
+    margin-top: 2rem;
+    height: 280vh;
+  }
+  #about > p{
+    
+      font-size: 0.8em;
+      position: relative;
+      top:-89rem ;     
+  }
+#abo{
+    margin-top: -92rem;
+     font-size: 0.5em; 
+     letter-spacing: 1.5em;
+}
+.info{
+    margin-top: 1rem;
+    position: relative;
+    left: -13rem;
+    font-size: 0.7em;
+}
+.info1{
+    margin-top: 1rem;
+    position: relative;
+    left: -13rem;
+    font-size: 0.7em;
+
+}
+
+.info2{
+    margin-top: 0.5rem;
+    position: relative;
+    left: -48.5rem;
+    font-size: 0.7em;
+}
+#contact > p{
+        font-size: 0.8em;
+        position: relative;
+        top:-175.7rem     
+     
+     }
+#contact{
+    position: relative;
+    /* margin-top:-150rem; */
+
+}
+#contact > h1{
+     /* margin-top: -20rem; */
+     color: black;
+}
+
+
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<!--Home-->
+
+    <div class="navbar">
+        <ul id="ul" style="font-family: 'Do Hyeon', sans-serif;font-size: 1rem;cursor: pointer;">
+      <li ><a href="#imag" style="color: grey;text-decoration: none;">Home</li>
+      <li><a href="#featured"  style="color: grey;text-decoration: none;">Featured Work</a></li>
+      <li><a href="#about"  style="color: grey;text-decoration: none;">About Us</a></li>
+      <li><a href="#contact" style="color:grey;text-decoration: none;">Contact</a></li>
+      </ul>
+    
+      <!-- <a id="hi" href="mailto:hello@thinkpixellab.com" style="color:grey;font-family: 'Do Hyeon', sans-serif;font-size: 1rem; margin-top: 1.2rem;margin-right: 6rem;text-decoration: none;position: sticky;">hello@thinkpixellab.com</a> -->
+    </div>
+      <div class="imag" style="border: 2px solid blue;height:56.5rem;background-color: rgb(14, 170, 231);">
+         <img src="precanvas.png" id="img" >
+          <h1 id="fes">Fresh Pixels. Made Daily.</h1>
+         
+            <div class="sam">
+           <h2 style="color:white;font-family: 'Roboto', sans-serif;margin-left: 14rem;font-size: 1.6em;margin-top: 0.7rem;">Pixel Lab is an award winning design and development<br>studio.We specialize in creating simple, fun and intuitive<br>experiences for the web and devices.</h2>
+              </div>    
+        </div>         
+           <!-- <script type="text/javascript">
+              let img = document.getElementById("img");
+              let fes = document.getElementById("fes");
+
+              window.addEventListener('scroll',function(){
+                  var value = window.scrollY;
+                  img.style.top = value * 0.10 + 'px';
+                  fes.style.bottom = value * 0.20 + 'px';
+              }) ;
+          </script>-->
+    
+     <div class="featured" style="height:140vh;border: 2px solid red;">
+         <p id="fea" style="padding-left:7px;">Featured Work</p>
+         <h2 id="red" style="font-size:4em; text-align: center;margin-top: 8rem;">Red Bull Rampage</h2>
+         <h3 id="xy" style="font-family: 'Roboto', sans-serif;font-size:25px;margin-top: 0.5rem;text-align: center;">We helped Red Bull shares the world's most ambitious bike race in real-time 3D.</h3>
+         <button class="but" style="width: 16vh;height: 4.9vh;margin-top: 1rem;background-color: rgb(37, 36, 36);color: white;border-radius: 9px;margin-left: 43.5rem;cursor: pointer;"><b>Learn More</b></button>   
+         <div class="iz" style="border: 2px solid blue;">
+         <img id="ie" src="bg.png"  style="margin-top: 0.5rem;margin-left:18rem;width:63%;">
+          <img id="if" src="over (1).png"  style="margin-top: -49rem;margin-left: 15.5rem;width: 66%;">   
+      </div>
+      </div>
+          <!--         
+         <div >
+            <h2 style="font-size: 65px; text-align: center;margin-top: 9rem;">Red Bull Rampage</h2>
+            <h3 style="font-family: 'Roboto', sans-serif;font-size: 25px;margin-top: 0.5rem;text-align: center;">We helped Red Bull shares the world's most ambitious bike race in real-time 3D.</h3>
+            <button class="but" style="width: 16vh;height: 4.9vh;margin-top: 1rem;background-color: rgb(37, 36, 36);color: white;border-radius: 9px;margin-left: 43.5rem;cursor: pointer;"><b>Learn More</b></button>   
+             <img src="bg.png" draggable="false" style="margin-top: 0.5rem;margin-left: 18rem;width: 63%;transform: matrix(1,0,0,1,0,0);">
+             <img src="over (1).png" draggable="false" style="margin-top: -49rem;margin-left: 15.5rem;width: 66%;transform: matrix(1,0,0,1,0,0);">   
+        </div> -->
+
+    
+   <!--Clients-->
+
+   <div class="cli" style="background-color: #262829;height:48vh;">
+
+    <h3 id="tex" style="position: relative;top: 4rem;">SELECT CLIENTS</h3>
+    <div class="image" style="margin-top: 6.7rem;margin-left: 16rem;">
+   <a href="https://www.microsoft.com/en-in"><img src="microsoft.png" style="width: 10rem; "></a>
+   <a href="https://support.microsoft.com/"><img src="ie.png" style="width: 10rem;"></a>
+    <a href="https://www.google.com/"><img src="google.png" style="width: 10rem;"></a>
+    <a href="https://www.cordaid.org/"><img src="gates.png" style="width: 10rem;"></a>
+    <a href="https://www.hotstar.com/in"><img src="disney.png" style="width: 10rem;"></a>
+    <a href="https://www.cuttherope.net/"><img src="ctr.png" style="width: 10rem;"> </a><br><br>
+    <a href="https://www.microsoft.com/"><img src="msr.png" style="width: 10rem;"></a>
+    <a href="https://in.yahoo.com/"><img src="yahoo.png" style="width: 10rem;"></a>
+    <a href="https://www.bmw.com/"><img src="bmw.png" style="width: 10rem;"></a>
+    <a href="https://www.msnbc.com/"><img src="msnbc.png" style="width: 10rem;"></a>
+    <a href="http://pulse.me/"> <img src="pulse.png" style="width: 10rem;"></a>
+     <a href="https://evernote.com/"><img src="evernote.png" style="width: 10rem;"></a>
+         </div>
+
+   </div> 
+
+<!--About-->
+
+   <div id="about">
+    <p style="text-align:center;margin-top: 89rem;">ABOUT US</p>
+    <div style="margin-top: 8.5rem;">
+     <p id="abo" style="font-size: 3.2em;color:black;font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif; line-height: 1.1;
+     text-align: center;letter-spacing: -.01em;"><strong><b>Pixel Lab</b></strong> is an award winning design and <br>development studio in Seattle.</p> 
+   </div>
+   <div class="info" style="font-family: 'Arvo', serif;margin-left: 1rem;">
+       <p style="margin-top: 6rem;margin-left: 14rem;"><b>FOUNDED</b></p>
+       <p style="font-size: 3.9em;margin-left:14rem ;font-family: sans-serif;margin-top: 0.6rem;">2008</p>
+       <p style="font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;margin-left: 14rem;font-size: 0.9rem;margin-top: 0.4rem;">We can't believe it either. Where does<br> the time go?</p>
+        <div style="border-left: 1px solid black;height: 180px;margin-left: 30.3rem;margin-top: -9rem;"></div>
+    </div>
+    <div class="info1" style="margin-left: 19rem;margin-top: -16.8rem;font-family: 'Arvo', serif;" >
+        <p style="margin-top: 5.8rem;margin-left: 14rem;"><b>SUCCESSFUL PROJECTS</b></p>
+        <p style="font-size: 3.9em;margin-left:14rem ;font-family: sans-serif;margin-top: 0.6rem;">68</p>
+        <p style="font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;margin-left: 14rem;font-size: 0.9rem;margin-top: 0.4rem;">And these are just the big ones! Add a<br>dozen or so open source projects and<br>countless smaller jobs.</p>
+         <div style="border-left: 1px solid black;height: 180px;margin-left: 30.5rem;margin-top: -10.2rem;"></div>
+     </div>
+     <div class="info2" style="margin-left: 37rem;margin-top: -16.8rem;font-family: 'Arvo', serif;" >
+        <p style="margin-top: 5.8rem;margin-left: 14rem;"><b>VIEWS</b></p>
+        <p style="font-size: 3.9em;margin-left:14rem ;font-family: sans-serif;margin-top: 0.6rem;">90M+</p>
+        <p style="font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;margin-left: 14rem;font-size: 0.9rem;margin-top: 0.4rem;">That's what the analytics tell us... our<BR>projects have delighted over 90 million<br> people!</p>
+         <div style="border-left: 1px solid black;height: 180px;margin-left: 30.5rem;margin-top: -10.2rem;"></div>
+     </div>
+     <div class="info3" style="float: right;margin-top: -16.8rem;margin-right: 11rem;font-family: 'Arvo', serif;" >
+        <p style="margin-top: 5.8rem;margin-left: 14rem;"><b>TESTING DEVICES</b></p>
+        <p style="font-size: 3.9em;margin-left:14rem ;font-family: sans-serif;margin-top: 0.6rem;">8</p>
+        <p style="font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;margin-left: 14rem;font-size: 0.9rem;margin-top: 0.4rem;">That's the number of testing devices<br>on my desk right now. We're pretty<br>thorough.</p>
+         
+     </div>
+ 
+   <div class="faq">
+       <h1 style="font-family: 'Arvo', serif;font-size: 4rem;text-align: center;margin-top: 3.5rem;"><b>FAQ</b></h1>
+        
+       <h2 style="margin-top: 4rem;margin-left: 18rem;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 1.6em;"> <strong>What are your areas of expertise?</strong></h2>  
+         <p style="margin-top:0.4rem;font-family: 'Roboto', sans-serif;font-size: 1.1em;margin-left: 18rem;line-height: 1.7rem;"><b>Web (frontend, server, infrastructure, you name it), app development, mobile and unique form factor,<br>marketing analytics and all things related to user experience and design. That's a big list. We've built a<br>lot of expertise.</b></p>
+   
+         <h2 style="margin-top: 2.5rem;margin-left: 18rem;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 1.6em;"> <strong>What is the right project size for you?</strong></h2>  
+         <p style="margin-top:0.4rem;font-family: 'Roboto', sans-serif;font-size: 1.1em;margin-left: 18rem;line-height: 1.7rem;"><b>Great question but tough answer. We're a modestly sized studio, but comfortable tackling very big<br>projects. We do it all the time. On the other hand, some of our favorite projects have been smaller.<br>Let's <a href="chat.com" style="text-decoration: none;color: rgb(8, 171, 235);">chat</a> and see if we're a fit!</b></p>
+        
+         <h2 style="margin-top: 2.5rem;margin-left: 18rem;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 1.6em;"> <strong>Are you taking on new projects right now?</strong></h2>  
+         <p style="margin-top:0.4rem;font-family: 'Roboto', sans-serif;font-size: 1.1em;margin-left: 18rem;line-height: 1.7rem;"><b>Yes! And we'd love to <a href="hear.com" style="text-decoration: none;color: rgb(8, 171, 235);">hear</a> from you.</b></p>
+       
+         <h2 style="margin-top: 2.5rem;margin-left: 18rem;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 1.6em;"> <strong>What now? How much is this going to cost? When can you start?</strong></h2>  
+         <p style="margin-top:0.4rem;font-family: 'Roboto', sans-serif;font-size: 1.1em;margin-left: 18rem;line-height: 1.7rem;"><b>Once we know a little more about the project, we can give you a quick estimate. We're easy to work<br>with, up front about cost and we're proud of an impeccable history for staying within budget. The first<br>step is to <a href="hear.com" style="text-decoration: none;color: rgb(8, 171, 235);">get in touch</a></b></p>
+       
+        </div>
+     </div>
+     
+     <!--Contact-->
+
+     <div id="contact">
+    <p style="text-align:center;margin-top: 176rem;">CONTACT</p>  
+    <h1 style="text-align: center;margin-top: 6rem;font-size: 4.2em;color: white; font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;
+    font-weight: 800;">Say Hello</h1>   
+     <div class ="edit" style="margin-left: 26rem; margin-top: 5.4rem;border:1px solid grey;height: 60vh;width: 45%;">
+  <form class="form" style="margin-top: 7.2rem;margin-left: 4.4rem;outline: none;">
+       
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<input type="text" id="Name" name="Name" autocomplete="off" required style="width: 14rem;height: 1.5rem;border: none;margin-top: -0.2rem;outline: none;font-family: 'Bangers', cursive;"> 
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<input type="email" id="Mail" name="Email"  autocomplete="off" required style="width: 14rem;height: 1.5rem;border:none;margin-top: 0.6rem;outline: none;font-family: 'Bangers', cursive;"> <br>
+        
+        <textarea name="Message" id="area" cols="41" rows="15" required style="border: 0.2px solid grey(15, 14, 14); margin-left: -1.1rem;margin-top: 0.8rem;border:none;width: 51.3%;height: 31vh;outline: none;font-family: 'Bangers', cursive;"></textarea> <br>
+        <button id="button" style="margin-left: 15.4rem;width: 3.5rem;height: 1.3rem;margin-top: 0.3rem;border: none;background-color: white;font-family:Courgette script=latin rev=2;cursor: pointer;"><em><b>Send</b></em></button></form>    
+        
+     <!-- <img id="contact1" src="postcard.jpg" style="width: 42rem;height: 30rem;margin-left: -16.5rem;margin-top: -29rem;">  -->
+     </div>
+    </div>
+      <!--footer-->
+
+      <footer class="footer">
+
+         <div class="con" style="color: white;">
+            <div>
+             <p style="margin-left: 16rem;background-color:rgb(37, 36, 36);font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;position: relative;top: 2.1rem;font-size:14px;"><strong>CONTACT</strong></p>
+             <p style="margin-top:3rem;margin-left: 16rem;font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;"><a href="mailto:hello@thinkpixellab.com" style="text-decoration: none;color: skyblue;">hello@thinkpixellab</a></p>
+             <p style="margin-top:0.5rem;margin-left: 16rem;">We're located in sunny<a href="" style="text-decoration: none;color: skyblue;"> Seattle ,WA.</a>Let us<br> know if you're in town!</p>
+           
+         </div>  
+         <div style="margin-left: 26.5rem;margin-top: -8rem;"> 
+            <p style="margin-left: 12rem;background-color:rgb(37, 36, 36);font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;position: relative;top: 2rem;font-size:14px;"><strong>FRIENDS & FAMILY</strong></p>
+            <p style="margin-top:3rem;margin-left: 12rem;font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;font-size: 0.9rem;">The core Pixel Lab team is <a href="" style="text-decoration: none;color: skyblue;">Robby Ingebretsen,<br>Joel Fillmore, Kevin Moore</a> and <a href="" style="text-decoration: none;color: skyblue;">Adam Kinney.</a></p>
+            <p style="margin-top:0.5rem;margin-left: 12rem;font-size: 1rem;">Also, a big thanks to <a href="" style="text-decoration: none;color: skyblue;">Fernanda Frick</a> for her<br> help with the illustrations on this page (she's<br> the best).</p>
+
+        </div>  
+        <div>
+               
+            <p style="float:right;margin-right:26rem;font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;position: relative;top: -1.3rem;font-size:14px;"><strong>ELSEWHERE</strong></p>   
+            <p id="icon">
+                <a href="https://twitter.com/thinkpixellab"><img src="twitter.png" style="width: 2.1rem;border-radius: 12px;padding: 0px 4px;background-color: white;"></a>
+                <a href="https://github.com/thinkpixellab"><img src="github-sign.png" style="width: 2.1rem;padding: 0px 4px;background-color: white;border-radius: 12px;margin-left: 0.5rem;"></a>
+                <a href="https://www.facebook.com/thinkpixellab"><img src="facebook.png" style="width: 2.1rem;padding: 0px 4px;background-color: white;border-radius: 12px;margin-left: 0.5rem;"></a>
+                <a href="https://accounts.google.com/"><img src="google-plus-logo-on-black-background.png" style="width: 2.1rem;padding: 0px 4px;background-color: white;border-radius: 12px;margin-left: 0.5rem;"></a>
+             
+              <h3 style="font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;position: relative;top: 1rem;font-size:14px;float: right;margin-right:28.2rem;">PRESS</h3>
+              <p style="margin-top:3rem;margin-left: 63.8rem;font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;font-size: 0.9rem;">Press and media inquiries? Please<a href="" style="text-decoration: none;color: skyblue;"> contact</a> us<br> or download a <a href="" style="text-decoration: none;color: skyblue;">high resolution logo.</a>
+                <h3 style="font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;position: relative;top: 1rem;font-size:14px;float: right;margin-right:28.2rem;">LEGAL</h3>
+                <p style="margin-top:3rem;margin-left: 63.8rem;font-family: proxima-nova-1,proxima-nova-2,'Proxima Nova',sans-serif;font-size: 0.9rem;">Copyright © 2013 Pixel Lab, All rights reserved.</p>
+                <img src="hamster.jpg" style="margin-top:-4.5rem;width: 5.5rem;height: 6.3rem;margin-left:16rem;">   
+            </div>
+          </div> 
+        </footer>
+      </body>
+</html>
